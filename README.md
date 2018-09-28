@@ -78,14 +78,34 @@ Finally, we use a generator B->A to get black the colorized version. The trainin
 
 Most of the code has been borrowed from [there](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The main differences are:
 
-* First the loss function. Instead of using the L1 norm on the images themselves (the colorized scan in (1) and the one in (2)) we use the VGG19 network to extract the feature in the images, and then we use the L1 norm of the difference of each image feature. That technique enables the cycle-gan network to "see" very small details in the images (the colorized scan in (1) and the one in (2)). This optimization technique is used in the [SRGAN paper](https://arxiv.org/abs/1609.04802)
- 
-* Then, by default the Cycle-gan use visdom as a visualization tool, which is (I think) not as easy to operate as tensorboard.  As a result, I replace visdom by tensorboardX, which enable tensorboard in a Pytorch environment.
+* By default the Cycle-gan use visdom as a visualization tool, which is (I think) not as easy to operate as tensorboard.  As a result, I replace visdom by tensorboardX, which enable tensorboard in a Pytorch environment.
 
 ## The weights
 
 Our network weights are available to [download](https://github.com/OValery16/Manga-colorization).
 
+## The results 
 
+Input (B/W)           |  Output (color)
+:-------------------------:|:-------------------------:
+![](/image/image_manga1.jpg?raw=true)  |  ![](/image/image_manga1-1.jpg?raw=true)
+![](/image/image_manga2.jpg?raw=true)  |  ![](/image/image_manga2-2.jpg?raw=true)
+![](/image/image_manga3.jpg?raw=true)  |  ![](/image/image_manga3-3.jpg?raw=true)
+![](/image/image_manga4.jpg?raw=true)  |  ![](/image/image_manga4-4.jpg?raw=true)
+![](/image/image_manga6.jpg?raw=true)  |  ![](/image/image_manga6-6.jpg?raw=true)
+![](/image/image_manga5.jpg?raw=true)  |  ![](/image/image_manga5-5.jpg?raw=true)
 
+Note: the last image comes from the last scans which were published only a few weeks ago 
+
+## Intuition 
+
+Mangas, such as One Piece, have a lot of different characters. Without paired data, our network learns to recognize them and draw them with similar aesthetic characteristics (same hair color ...). In addition, our network is able to make the correlation between a state of different characters (in middle of a fight, wounded ... ) and infer information, such as when a character is bleeding his blood need to be red.
+
+## Case of failure
+
+If the AI has never seen a character, it will infer colors that look good (from the aesthetic point of view), but may not be the final choice of the author.
+
+## Important remark
+
+If you like you like this project, feel free to leave a star. (it is my only reward ^^)
 
