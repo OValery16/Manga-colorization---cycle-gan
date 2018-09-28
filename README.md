@@ -88,12 +88,12 @@ Our network weights are available to [download](https://github.com/OValery16/Man
 
 Input (B/W)           |  Output (color)
 :-------------------------:|:-------------------------:
-![](/image/image_manga1.jpg?raw=true)  |  ![](/image/image_manga1-1.jpg?raw=true)
-![](/image/image_manga2.jpg?raw=true)  |  ![](/image/image_manga2-2.jpg?raw=true)
-![](/image/image_manga3.jpg?raw=true)  |  ![](/image/image_manga3-3.jpg?raw=true)
-![](/image/image_manga4.jpg?raw=true)  |  ![](/image/image_manga4-4.jpg?raw=true)
-![](/image/image_manga6.jpg?raw=true)  |  ![](/image/image_manga6-6.jpg?raw=true)
-![](/image/image_manga5.jpg?raw=true)  |  ![](/image/image_manga5-5.jpg?raw=true)
+![](/image/image_manga1.png?raw=true)  |  ![](/image/image_manga1-1.png?raw=true)
+![](/image/image_manga2.png?raw=true)  |  ![](/image/image_manga2-2.png?raw=true)
+![](/image/image_manga3.png?raw=true)  |  ![](/image/image_manga3-3.png?raw=true)
+![](/image/image_manga4.png?raw=true)  |  ![](/image/image_manga4-4.png?raw=true)
+![](/image/image_manga6.png?raw=true)  |  ![](/image/image_manga6-6.png?raw=true)
+![](/image/image_manga5.png?raw=true)  |  ![](/image/image_manga5-5.png?raw=true)
 
 Note: the last image comes from the last scans which were published only a few weeks ago 
 
