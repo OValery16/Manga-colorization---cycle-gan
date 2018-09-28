@@ -99,7 +99,7 @@ Note: the last image comes from the last scans which were published only a few w
 
 ## Intuition 
 
-Mangas, such as One Piece, have a lot of different characters. Without paired data, our network learns to recognize them and draw them with similar aesthetic characteristics (same hair color ...). In addition, our network is able to make the correlation between a state of different characters (in middle of a fight, wounded ... ) and infer information, such as when a character is bleeding his blood need to be red.
+Mangas, such as One Piece, have a lot of different characters. Without paired data, our network learns to recognize them and draw them with similar aesthetic characteristics (same hair color ...). In addition, our network is able to make the correlation between a state of different characters (in middle of a fight, wounded ... ) and infers information, such as when a character is bleeding his blood need to be red.
 
 ## Case of failure
 
